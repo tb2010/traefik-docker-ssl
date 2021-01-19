@@ -16,7 +16,7 @@ cd traefik-docker-ssl`
 Edit domain, network and any desired customization settings in docker-composer.yml and ./traefik/config.yml
 
 
-generate a local wildcard certificate using openssl
+generate a local wildcard certificate using openssl or mkcert (google for documentation)
 
 
 
