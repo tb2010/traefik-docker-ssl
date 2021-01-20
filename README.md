@@ -18,7 +18,10 @@ Edit domain, network and any desired customization settings in docker-composer.y
 
 generate a local wildcard certificate using openssl or mkcert (google for documentation)
 
-
+- if you have mkcert installed (macos: brew install mkcert; mkcert --install) you can generate a cert ie:
+```bash
+mkcert -cert-file certs/local-cert.pem -key-file certs/local-key.pem "docker.localhost" "*.docker.localhost"
+```
 
 Create netowrks thar will be used by traefik
 ```bash
