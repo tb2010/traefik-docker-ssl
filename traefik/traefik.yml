@@ -16,6 +16,8 @@ providers:
     filename: /etc/traefik/config.yml
     watch: true
 
+accessLog: {}
+
 log:
   level: INFO
   format: common
